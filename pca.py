@@ -26,7 +26,7 @@ def plotV(a, labels):
     ax = fig.add_subplot(111)
     print("aaa")
     font = { 'fontname':'Tahoma', 'fontsize':0.5, 'verticalalignment': 'top', 'horizontalalignment':'center' }
-    ax.scatter(a[:,0], a[:,1], marker = ' ')
+    ax.scatter([a[:,0]], [a[:,1]], marker = ' ')
     ax.set_xlim(-0.8,0.8)
     ax.set_ylim(-0.8,0.8)
     i = 0
